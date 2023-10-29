@@ -1,2 +1,55 @@
-<p>이것은 단락입니다.</p>
-<a href="https://www.google.com">구글로 이동하는 링크</a>
+<!DOCTYPE html> <!-- // 문서의 형식을 지정하는 선언부. HTML5를 사용하고 있음을 나타냄 -->
+<html> <!-- // HTML 문서의 최상위 요소. 모든 HTML 요소는 이 <html> 태그 내에 위치해야 함 -->
+  <head>  <!-- // HTML 문서의 메타데이터를 포함하는 요소(헤더). 문서의 제목, 스타일 시트, 스크립트 등의 정보를 포함 -->
+    <meta charset="UTF-8"> <!-- // 문서의 문자 인코딩을 지정하는 메타 태그. UTF-8은 유니코드를 위한 가변 길이 문자 인코딩 방식 -->
+    <title>web page title</title> <!-- // 웹 페이지의 제목을 나타내는 태그. 브라우저의 제목 표시줄이나 검색 결과에 표시됨 -->
+    <link rel="stylesheet" href="style.css"> <!-- // 외부 스타일시트 파일을 연결하는 태그. 스타일시트는 웹 페이지의 디자인과 레이아웃을 지정하는데 사용된다. -->
+  </head>
+  <body> <!-- // 실제 웹 페이지의 내용을 포함하는 부분. 브라우저의 화면에 표시되는 모든 콘텐츠는 이 태그 내에 위치해야 함 -->
+  <p>이것은 단락입니다.</p>
+  <a href="https://www.google.com">구글로 이동하는 링크</a>
+  <img src="img.png" alt="이미지 설명"> <!-- // alt는 이미지가 없을 때 대체 텍스트 -->
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+</ul>
+
+<ol>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+</ol>
+
+<table border=1>
+  <thead>
+    <tr>
+      <th>이름</th>
+      <th>나이</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>방민식</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>방민식 2024</td>
+      <td>31</td>
+    </tr>
+  </tbody>
+
+    <header> <!-- // 웹 페이지의 머리말을 나타내는 태그. 웹 페이지의 로고, 제목, 메뉴 등의 요소를 포함 -->
+      <!-- web page header content -->
+    </header>
+    <nav> <!-- // 웹 페이지의 네비게이션 메뉴를 나타내는 태그로, 주요 링크나 메뉴 항목을 포함한다. -->
+      <!-- navigation menu content -->
+    </nav>
+    <main> <!-- // 웹 페이지의 주요 내용을 담는 태그. 문서의 실제 내용이 위치하며, 섹션 태그들로 구성될 수 있다. -->
+      <!-- web page main content -->
+    </main>
+    <footer> <!-- // 웹 페이지의 바닥글 부분을 나타내는 태그. 저작권 정보, 연락처 등을 포함할 수 있다. -->
+      <!-- web page footer content -->
+    </footer>
+  </body>
+</html>
